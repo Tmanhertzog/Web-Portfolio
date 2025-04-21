@@ -1,0 +1,6 @@
+-----------------
+Commands:
+-----------------
+
+git commit -am "..."            (Commits changes locally)
+git push origin master          (Sends commits to github)
