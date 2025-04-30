@@ -9,3 +9,7 @@ nav {
 dt {
     font-weight: bold;
 }
+
+#pdf {
+    height: fit-content;
+}
