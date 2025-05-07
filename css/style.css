@@ -1,15 +1,70 @@
 body {
     background-color: #c8e9df;
+    margin: 0px;
+    font-family: sans-serif;
 }
 
 nav {
+    margin: 0px;
+    display: flex;
     font-weight: bold;
+    background-color: #1f1f1f;
+    align-items: center;    /*makes text vertically centered*/
+}
+
+nav h1 {
+    margin-left: 15%;   /*adds space before nav*/
+}
+
+nav ul {
+    list-style-type: none;      /*removes bullet point style*/
+    padding-left: 10%;          /*adds space between h1 and nav*/
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    text-align: center;
+    padding: 20px 30px;         /*padding: vert, horiz*/
+    text-decoration: none;
+    color: #cccccc;
+}
+
+nav li a:hover {
+    background-color: #000000;
+}
+
+main {
+    margin-left: 5%;
 }
 
 dt {
     font-weight: bold;
 }
 
+/* footer {
+    
+} */
+
+.top {
+    margin-top: 0px;
+    text-decoration: none;
+    color: #cccccc;
+    font-size: 20px;
+    font-weight: 500;
+    /* width: 20%; */
+    /* float: left; */
+    /* margin-left: 20px; */
+}
+
+.center { /*not working as i had hoped*/
+    align-items: center;
+}
+
 #pdf {
     height: fit-content;
 }
+
