@@ -4,12 +4,14 @@ body {
     font-family: sans-serif;
 }
 
+
 nav {
     margin: 0px;
     display: flex;
     font-weight: bold;
     background-color: #1f1f1f;
-    align-items: center;    /*makes text vertically centered*/
+    align-items: center;
+    padding: 0 5%;
 }
 
 nav h1 {
@@ -39,6 +41,7 @@ nav li a:hover {
 
 main {
     margin-left: 5%;
+    margin-top: 2.5%;
 }
 
 dt {
@@ -49,22 +52,49 @@ dt {
     
 } */
 
+object {
+    display: block;
+    margin: auto;
+    margin-top: 2.5%;
+    width: 50%;
+    height: 253vh;
+    outline: 5px #000000;
+}
+
 .top {
     margin-top: 0px;
     text-decoration: none;
     color: #cccccc;
     font-size: 20px;
     font-weight: 500;
-    /* width: 20%; */
-    /* float: left; */
-    /* margin-left: 20px; */
+}
+
+.horiz_center {
+    margin: 0;
+    text-align: center;
 }
 
 .center { /*not working as i had hoped*/
     align-items: center;
 }
 
-#pdf {
-    height: fit-content;
+.longHeight {
+    height: 300vh;
+}
+
+.rounded-block {
+    padding: 10px 15px;
+    border-radius: 10px; /* Adjust for roundness */
+    background-color: #1f1f1f;
+  }
+
+#pdflink {
+    text-decoration: none;
+    color: #e8e8e8;
+    
+}
+
+#pdflink:hover {
+    color: #a1e5d1;
 }
 
