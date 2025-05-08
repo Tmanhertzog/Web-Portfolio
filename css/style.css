@@ -86,7 +86,23 @@ object {
     padding: 10px 15px;
     border-radius: 10px; /* Adjust for roundness */
     background-color: #1f1f1f;
-  }
+}
+
+.column {
+    float: left;
+    width: 50%
+}
+
+.short-col {
+    float: left;
+    width: 40%;
+}
+
+.large-col {
+    float: left;
+    width: 60%;
+}
+
 
 #pdflink {
     text-decoration: none;
