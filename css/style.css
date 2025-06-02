@@ -2,10 +2,16 @@ body {
     background-color: #c8e9df;
     margin: 0px;
     font-family: sans-serif;
+    padding-top: 10%;
 }
 
 
 nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
     margin: 0px;
     display: flex;
     font-weight: bold;
@@ -107,7 +113,7 @@ object {
 .large-col img {
     max-width: 100%; /* Prevent the image from exceeding the container width */
     max-height: 100%; /* Prevent the image from exceeding the container height */
-    height: 50vh; /* Limit container height to viewport height */
+    height: 40vh; /* Limit container height to viewport height */
     object-fit: contain; /* Scale image without distortion */
 }
 
@@ -122,3 +128,12 @@ object {
     color: #a1e5d1;
 }
 
+/* Phones */
+@media (min-width: 600px) { 
+    
+}
+
+/* Tablets */
+@media (min-width: 1024px) { 
+    
+}
