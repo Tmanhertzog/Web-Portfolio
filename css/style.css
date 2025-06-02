@@ -80,8 +80,30 @@ object {
     text-align: center;
 }
 
-.center { /*not working as i had hoped*/
+.colsDisplay { 
+    display: flex;
     align-items: center;
+    justify-content: center;   
+    gap: 40px;                
+    flex-wrap: wrap; 
+}
+
+.short-col {
+    float: left;
+    width: 40%;
+}
+
+.large-col {
+    float: left;
+    width: 40%;
+    margin-left: 60%;
+}
+
+.large-col img {
+    max-width: 100%; /* Prevent the image from exceeding the container width */
+    max-height: 100%; /* Prevent the image from exceeding the container height */
+    height: 100vh; /* Limit container height to viewport height */
+    object-fit: contain; /* Scale image without distortion */
 }
 
 .longHeight {
@@ -93,30 +115,6 @@ object {
     border-radius: 10px; /* Adjust for roundness */
     background-color: #1f1f1f;
 }
-
-.column {
-    float: left;
-    width: 50%
-}
-
-.short-col {
-    float: left;
-    width: 40%;
-}
-
-.large-col {
-    float: left;
-    width: 60%;
-    margin: 20px
-}
-
-.large-col img {
-    max-width: 100%; /* Prevent the image from exceeding the container width */
-    max-height: 100%; /* Prevent the image from exceeding the container height */
-    height: 40vh; /* Limit container height to viewport height */
-    object-fit: contain; /* Scale image without distortion */
-}
-
 
 #pdflink {
     text-decoration: none;
