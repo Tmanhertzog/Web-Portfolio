@@ -2,13 +2,13 @@
 Usability Requirements
 --------------------------
 [ ] LAYOUT. The arrangement of text and images on each page should be attractive and well-organized.
-[ ] NAVIGATION. Each page links to each of the others. The navigation must be visible without scrolling and 
+[X] NAVIGATION. Each page links to each of the others. The navigation must be visible without scrolling and 
     located in the same place on every page. The only exception is the page that serves as a "pop-up".
 [X] CONSISTENCY. All pages are consistent with the layout: navigation, content, logo, etc., are always in the same place.
 [X] TEXT. The text is large enough to read, contrasts strongly with the background color(s), and is pertinent to the site (avoid Lorem Ipsum).
 [ ] IMAGE SIZES. Each image should be original. Avoid copying online without giving credit to the original source.
 [X] TITLES. Each page must have a logical <title> element that identifies the website and the page's topic.
-[ ] RESPONSIVE: All the pages must be responsive to at least two screens. Adding a hamburger menu to the smaller screen  
+[X] RESPONSIVE: All the pages must be responsive to at least two screens. Adding a hamburger menu to the smaller screen  
     E.g. 320px — 480px: Mobile device, 481px — 768px: iPads, Tablet or 769px — 1024px: Small screens, laptops
 [X] JAVASCRIPT. Add interactivity to at least one page.
 
