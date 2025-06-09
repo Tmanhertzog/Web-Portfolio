@@ -155,10 +155,6 @@ object {
     background-color: #1f1f1f;
 }
 
-.pdf-scaler {
-    
-}
-
 #pdflink {
     text-decoration: none;
     color: #e8e8e8;
@@ -178,23 +174,73 @@ object {
   display: none;
 }
 
+.mobileNav {
+    flex-direction: column;
+    width: 100%;
+}
+
 /* Phones */
-@media (max-width: 600px) { 
-
-    .dropdown-content {
-        
+@media (max-width: 600px) {
+    
+    main {
+        margin-top: 70px;
+    }
+    
+    nav {
+        flex-direction: column;
+        margin: 0;
+        padding: 0 0;
+        padding-bottom: 40px;
     }
 
-    .dropdown.active .dropdown-content {
-
+    nav h1 {
+        margin: 0;
+        padding: 0 0;
+        margin-top: 20px;
     }
 
-    .dropdown-button {
+    nav ul {
+        margin: 0;
+        padding: 0 0;
+        margin-top: 20px;
+    }
 
+    details {
+        display: flex;
+        flex-direction: column; 
+    }
+
+    details[open] summary h1 {
+        margin-left: 26.5%;
+    }
+
+    details ul {
+        background-color: gray;
+    }
+
+    nav ul li {
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        width: 100%;
+        border-bottom: 1px solid;
+    }
+
+    summary {
+        list-style: none;
+        display: block;
+        font-weight: normal;
+        padding: 0.5em;
+        height: 2em;         /* lock height */
+        line-height: 2em;    /* keep vertical spacing */
+        margin: 0;
+        cursor: pointer;
+    }
+
+    summary::-webkit-details-marker {
+        display: none;
     }
 
     .sectioning {
-        padding-top: 35vh;
         padding-bottom: 25vh;
     }
 
@@ -213,6 +259,10 @@ object {
     
     .short-col, .large-col{
         width: 100%;
+    }
+
+    object {
+        height: 71vh;
     }
 
     .mobile {

@@ -9,7 +9,7 @@
 <body>
     <header class="top">
         <nav>
-            <h1>Tristan Hertzog</h1>
+            <h1 class="desktop">Tristan Hertzog</h1>
             <ul class="desktop">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="experience.html">Experience</a></li>
@@ -18,24 +18,19 @@
                 <li><a href="contact.html">Contact</a></li>
             </ul>
             <div class="mobile">
-                <div class="dropdown">
-                    <div class="dropdown-button" onclick="toggleDropdown()">&#9776;</div>
-                    <div class="dropdown-content">
-                        <p>Option 1</p>
-                        <p>Option 2</p>
-                        <p>Option 3</p>
+                <details>
+                    <summary><h1>Tristan Hertzog</h1></summary>
+                    <div class="mobileNav">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="experience.html">Experience</a></li>
+                            <li><a href="skills.html">Skills</a></li>
+                            <li><a href="resume.html">Resume</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
                     </div>
-                </div>
-                <script>
-                    function toggleDropdown() {
-                        const dropdown = document.querySelector('.dropdown');
-                        dropdown.classList.toggle('active');
-                    }
-                </script>
+                </details>
             </div>
-            <p class="mobile">
-                
-            </p>
         </nav>
     </header>
 
