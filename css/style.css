@@ -120,24 +120,26 @@ object {
 
 .horiz_center {
     margin: 0;
+    margin-top: 10px;
     text-align: center;
 }
 
 .colsDisplay { 
     display: flex;   
     gap: 10%;    
-    margin: 0% 15%;
+    margin: 0% 5%;
+    /* background-color: #a562d2; */
 }
 
 .short-col {
     width: 50%;
     text-align: center;
-    /* background-color: #9eb8b0; */    /* For Testing  */
+    /* background-color: #9eb8b0;    For Testing  */
 }
 
 .large-col {
-    width: 50%;
-    /* background-color: #ebf9f5; */    /* For Testing  */
+    width: 30%;
+    background-color: #ebf9f5;    /* For Testing  */
 }
 
 .large-col img {
@@ -255,6 +257,28 @@ table img {
     font-size: larger;
     text-decoration: none;
     font-weight: bold;
+}
+
+.horiz_center ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.horiz_center ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    display:flex; 
+    align-items:center;
+}
+
+.horiz_center ul li a span {
+    padding-right: 10px;
+}
+
+.horiz_center ul img {
+    height: 5vh;
 }
 
 
