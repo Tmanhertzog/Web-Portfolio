@@ -398,6 +398,11 @@ table img {
         padding-bottom: 100px;
     }
     
+    .horiz_center ul li a span {
+        padding-right: 10px;
+        font-size: 8px;
+        color: transparent;
+    }
 
 }
 
