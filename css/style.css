@@ -67,7 +67,7 @@ object {
     margin: auto;
     margin-top: 2.5%;
     width: 50%;
-    height: 120vw;
+    height: 60vw;
     outline: 5px #000000;
 }
 
@@ -497,7 +497,7 @@ table img {
 
     object {
         width: 80%;
-        height: 185vw;
+        height: 92vw;
     }
 
 
@@ -631,7 +631,7 @@ table img {
         margin: auto;
         margin-top: 2.5%;
         width: 50%;
-        height: 120vw;
+        height: 60vw;
         outline: 5px #000000;
     }
 }
